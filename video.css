@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.play {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+}
+
+.naa li {
+  display: inline;
+  margin: 8px;
+}
+
+.naa a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+.naa a:hover {
+  color: #eb8d29;
+}
+
+.par a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin: 3px;
+}
+
+.par i {
+  margin: 3px;
+}
+.t {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+}
+.bar li {
+  list-style: none;
+  margin: 15px;
+}
+.bar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.bar a:hover {
+  color: #eb8d29;
+}
+.i i {
+  margin: 8px;
+  color: white;
+  font-size: 20px;
+}
+.fa-twitter {
+  color: white;
+}
+.fa-twitter:hover {
+  color: rgb(21, 172, 227);
+}
+.fa-instagram {
+  color: white;
+}
+.fa-instagram:hover {
+  color: palevioletred;
+}
+.fa-youtube {
+  color: white;
+}
+.fa-youtube:hover {
+  color: rgb(238, 51, 51);
+}
+.fa-facebook {
+  color: white;
+}
+.fa-facebook:hover {
+  color: rgb(28, 180, 251);
+}
+.fa-linkedin {
+  color: white;
+}
+.fa-linkedin:hover {
+  color: rgb(38, 230, 38);
+}
